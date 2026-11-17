@@ -5,7 +5,7 @@
   --border:#2B3036;
   --text:#E9EBED;
   --text-dim:#9BA2A9;
-  --accent:#E3A33D;
+  --accent:#9B6BF2;
   --accent-dim:#B9821F;
   --accent-text:#1A1304;
   --radius-s:4px;
@@ -22,7 +22,7 @@ html[data-theme="light"]{
   --border:#DDDCD6;
   --text:#17191B;
   --text-dim:#5B5F63;
-  --accent:#B9791C;
+  --accent:#7C3AED;
   --accent-dim:#8F5E13;
   --accent-text:#FFF8EC;
   color-scheme: light;
