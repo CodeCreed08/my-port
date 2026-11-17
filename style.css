@@ -209,6 +209,29 @@ html[data-theme="light"] .c-s{color:#3F7A52;}
 .project-tags span{font-family:var(--mono); font-size:0.74rem; border:1px solid var(--border); border-radius:999px; padding:3px 9px; color:var(--text-dim);}
 .project-link{margin-top:6px; font-size:0.85rem; color:var(--accent); text-decoration:none; font-weight:600;}
 
+/* ---------- internship ---------- */
+.sample-notice{
+  background:var(--surface); border:1px dashed var(--accent); border-radius:var(--radius-m);
+  padding:14px 18px; font-size:0.86rem; color:var(--text-dim); margin-bottom:24px;
+}
+.sample-notice strong{color:var(--text);}
+.intern-card{
+  position:relative; background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-m);
+  padding:24px clamp(20px,3vw,28px); margin-bottom:18px;
+}
+.sample-badge{
+  font-family:var(--mono); font-size:0.72rem; color:var(--accent); border:1px solid var(--border);
+  border-radius:999px; padding:3px 10px; display:inline-block; margin-bottom:14px;
+}
+.intern-head{display:flex; justify-content:space-between; align-items:flex-start; gap:14px; flex-wrap:wrap; margin-bottom:10px;}
+.intern-head h3{font-family:var(--mono); font-size:1.05rem;}
+.intern-company{color:var(--accent); font-size:0.88rem; margin-top:4px;}
+.intern-card p{color:var(--text-dim); font-size:0.92rem; margin-bottom:10px;}
+.intern-card h4{font-size:0.88rem; font-weight:600; margin:14px 0 8px;}
+.intern-list{list-style:none; display:flex; flex-direction:column; gap:7px; margin-bottom:6px;}
+.intern-list li{padding-left:16px; position:relative; color:var(--text-dim); font-size:0.9rem;}
+.intern-list li::before{content:""; position:absolute; left:0; top:0.55em; width:6px; height:6px; border-radius:50%; background:var(--accent);}
+
 /* ---------- contact ---------- */
 .contact-grid{display:grid; grid-template-columns:1fr 1.2fr; gap:clamp(24px,4vw,50px);}
 @media (max-width:860px){ .contact-grid{grid-template-columns:1fr;} }
