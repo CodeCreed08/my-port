@@ -149,7 +149,9 @@ const skills = [
   { name: 'C', desc: 'Low-level & fast paths', icon: '<path d="M4 18V6l8-3 8 3v12l-8 3-8-3Z"/><path d="M12 3v18"/>' },
   { name: 'Rust', desc: 'Systems & safety', icon: '<circle cx="12" cy="12" r="8"/><path d="M12 4v4M12 16v4M4 12h4M16 12h4"/>' },
   { name: 'Modding', desc: 'Forge, Fabric, Mixin', icon: '<rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 9h16M9 4v16"/>' },
-  { name: 'Git', desc: 'Version control', icon: '<circle cx="6" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M6 8v4a4 4 0 0 0 4 4h4"/>' }
+  { name: 'Git', desc: 'Version control', icon: '<circle cx="6" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M6 8v4a4 4 0 0 0 4 4h4"/>' },
+  { name: 'HTML5 & CSS3', desc: 'Markup & styling', icon: '<path d="M9 6l-5 6 5 6"/><path d="M15 6l5 6-5 6"/>' },
+  { name: 'JavaScript', desc: 'Browser scripting', icon: '<path d="M8 4c-2 0-3 1.2-3 3.2v2.6c0 1.3-1 2.2-2 2.2 1 0 2 .9 2 2.2v2.6c0 2 1 3.2 3 3.2"/><path d="M16 4c2 0 3 1.2 3 3.2v2.6c0 1.3 1 2.2 2 2.2-1 0-2 .9-2 2.2v2.6c0 2-1 3.2-3 3.2"/>' }
 ];
 const skillsGrid = document.getElementById('skills-grid');
 skillsGrid.innerHTML = skills.map(s => `
@@ -182,7 +184,15 @@ const projects = [
     tags: ['Rust', 'Bytecode design'],
     link: 'https://github.com/CodeCreed08',
     icon: '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9h10M7 13h6"/>'
+  },
+  {
+    title: 'Mess Card Management System', tag: 'web',
+    desc: 'A real-world project built to ease the process of getting and renewing a mess card, with QR code generation and scanning to verify cards.',
+    tags: ['HTML', 'CSS', 'JavaScript', 'QR Code'],
+    link: 'https://github.com/CodeCreed08/fwd05',
+    icon: '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 9h18M8 7h.01M11 7h.01"/>'
   }
+  
 ];
 
 const filtersEl = document.getElementById('filters');
